@@ -1,0 +1,319 @@
+.body {
+  font-family: open;
+  margin: 0;
+  background-color: #191919;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+@font-face {
+  font-family: "open";
+  src: url(../fonts/OpenSans/OpenSans-Regular.ttf);
+}
+
+/*Navigatin menu*/
+
+.main-header {
+  background-color: #282828;
+  color: white;
+  width: 100%;
+  height: 100px;
+}
+.main-header__brand {
+  display: inline-block;
+  vertical-align: middle;
+  width: 285px;
+  height: 57px;
+  margin: 11px 0px 0px 22px;
+}
+
+.navigation-robot {
+  display: inline-block;
+  font-size: 40px;
+  color: white;
+  width: 44px;
+  height: 57px;
+}
+
+.robot123 {
+  color: white;
+}
+.navigation-robot__text {
+  display: inline-block;
+  width: 225px;
+  height: 32px;
+  font-family: open;
+  font-style: normal;
+  font-size: 23px;
+  line-height: 31px;
+  vertical-align: center;
+  color: #3a68b8;
+  margin-left: 10px;
+}
+
+.main-navigation {
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+}
+
+.main-navigation__items {
+  width: 615px;
+  height: 22px;
+}
+
+.main-navigation__item {
+  display: inline-block;
+  padding: 10px 25px;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: right;
+  font-family: open;
+}
+
+.navigation__title {
+  color: white;
+  text-decoration: none;
+}
+
+.navigation-button {
+  display: inline-block;
+  /*float: right;*/
+  margin: 22px 0 22px 217px;
+}
+
+.navigation__button {
+  width: 112px;
+  height: 52px;
+  background-color: #3a68b8;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  font-family: open;
+  vertical-align: top;
+  color: white;
+  border-radius: 10px;
+}
+
+/* Navigatin menu fineshed */
+
+.footer {
+  background-color: #070f1c;
+  height: 400px;
+  width: 100%;
+}
+
+.contacts {
+  float: left;
+  width: 272px;
+  height: 306px;
+  margin-top: 30px;
+}
+
+.navigation-robot {
+  display: inline-block;
+  color: white;
+  font-size: 50px;
+  display: inline-block;
+}
+
+.navigation-robot__text {
+  font-family: open;
+  font-style: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: left;
+  color: #3a68b8;
+  display: inline-block;
+}
+
+.email-icon {
+  display: inline-block;
+  color: white;
+}
+
+.contacts-text {
+  font-family: open;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  color: white;
+  opacity: 0.6;
+}
+
+.emailaddress {
+  display: inline-block;
+  font-family: open;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  color: white;
+  opacity: 0.6;
+}
+
+.information {
+  display: inline-block;
+  width: 164px;
+  height: 260px;
+  margin: 100px 40px 0 40px;
+  text-decoration: none;
+}
+
+.info-title {
+  font-family: sans-serif;
+  font-style: 500;
+  font-size: 16px;
+  text-align: 16px;
+  text-align: left;
+  color: white;
+}
+
+.info-menu {
+  font-family: open;
+  font-style: 500;
+  font-size: 16px;
+  align-items: left;
+  color: white;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.footer-menu {
+  display: inline-block;
+  width: 165px;
+  height: 260px;
+  margin: 100px 40px 0 40px;
+}
+
+.footer-menu__title {
+  font-family: sans-serif;
+  font-style: 500;
+  font-size: 16px;
+  text-align: 16px;
+  text-align: left;
+  color: white;
+}
+
+.footer-menu__list {
+  font-family: open;
+  font-style: 500;
+  font-size: 16px;
+  align-items: left;
+  color: white;
+  opacity: 0.6;
+}
+
+.useful-link {
+  display: inline-block;
+  width: 165px;
+  height: 260px;
+  margin: 100px 40px 0 40px;
+}
+
+.useful-link__title {
+  font-family: sans-serif;
+  font-style: 500;
+  font-size: 16px;
+  text-align: 16px;
+  text-align: left;
+  color: white;
+}
+
+.useful-link__list {
+  font-family: open;
+  font-style: 500;
+  font-size: 16px;
+  align-items: left;
+  color: white;
+  opacity: 0.6;
+}
+
+.about-store {
+  float: right;
+  width: 275px;
+  height: 260px;
+  padding-top: 100px;
+}
+
+.about-store__title {
+  font-family: sans-serif;
+  font-style: 500;
+  font-size: 16px;
+  text-align: 16px;
+  text-align: left;
+  color: white;
+}
+
+.about-store__text {
+  font-family: open;
+  font-style: 500;
+  font-size: 16px;
+  align-items: left;
+  color: white;
+  opacity: 0.6;
+}
+
+.about-store__web {
+  color: white;
+  font-style: 500;
+  font-size: 14px;
+}
+
+.social-networks {
+  margin: 30px 0 25px 0;
+}
+
+.social-networks {
+  color: white;
+  font-size: 20px;
+}
+
+.social {
+  padding: 0px 20px 0px 0px;
+}
+
+.language {
+  color: white;
+  font-size: 20px;
+}
+
+.earth {
+  display: inline-block;
+}
+
+.english {
+  display: inline-block;
+  padding-left: 15px;
+}
+
+/* Footer section */
+
+@media only screen and (max-width: 991px) {
+  .main-header {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    width: 96%;
+  }
+  .main-header {
+    display: none;
+  }
+}
